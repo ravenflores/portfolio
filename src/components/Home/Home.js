@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/dev.svg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 
@@ -20,19 +20,16 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Sunil Yadav</strong>
+                <strong className="main-name"> Raven Flores</strong>
               </h1>
 
-              <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
-              </p>
-
+              
+              <p className="heading-description blockquote">I was born and raised in Phillipines, a breeding area of technology and innovation. I first started programming at the age of 13.</p>
+              <p className="heading-description blockquote">I graduated from Polytechnic University of the Philippines Santa Maria Bulacan</p> 
+              <p className="heading-description blockquote">I know I'm new to this field. I write bunch of codes do the logics and stuffs. but for me it's time to step up and work with the professionals.</p> 
               <div className="heading-type">
                 <TypeWriter />
-              </div>
+              </div> 
             </Col>
 
             <Col md={5}>
